@@ -1,0 +1,5 @@
+flask>=3.1.0
+python-dateutil>=2.9.0.post0
+pytz>=2024.2
+airtop>=0.1.0
+asyncio>=3.4.3
