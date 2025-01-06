@@ -44,6 +44,5 @@
     "summaryPrompt": "Summarize the discussion, focusing on whether a meeting was booked, rescheduled, or canceled. Clearly state the reason for booking, rescheduling, or canceling the meeting. If a meeting was booked, provide detailed information on what the caller was looking for, the specific services they were interested in, and any key points discussed during the call.",
     "structuredDataPrompt": "You are an expert data extractor. You will be given a transcript of a call. Extract structured data per the JSON Schema. All these details where given during call while appoimentdate being the date the user pick to book the meeting.\n\n{\n  \"structuredDataSchema\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"name\": { \"type\": \"string\" },\n      \"email\": { \"type\": \"string\" },\n      \"appointmentDate\": { \"type\": \"string\" }\n    },\n    \"required\": [\"name\", \"email\", \"appointmentDate\"]\n  }\n}"
   },
-  "backgroundDenoisingEnabled": false,
-  "isServerUrlSecretSet": false
+  "backgroundDenoisingEnabled": false
 }
